@@ -1,0 +1,6 @@
+Model,Backbone (timm id),Accuracy,Precision,Recall / Sensitivity,Specificity,F1-Score,ROC-AUC,PR-AUC,MCC,Balanced Accuracy,Neo Accuracy,RetCam Accuracy,Parameter Count,Training Time (min)
+ghostnetv2,ghostnetv2_100.in1k,0.8571,0.9091,0.7692,0.9333,0.8333,0.9282,0.8921,0.7174,0.8513,0.8571,0.8571,"5,040,005",9.67
+,resnet18,0.6071,0.6,0.4615,0.7333,0.5217,0.5128,,0.2028,0.5974,0.5714,0.6429,"11,242,305",2.94
+,ghostnetv2_100.in1k,0.5714,0.5556,0.3846,0.7333,0.4545,0.6308,,0.126,0.559,0.8571,0.2857,"5,370,430",2.9
+,densenet121,0.7857,0.8182,0.6923,0.8667,0.75,0.9282,,0.5708,0.7795,0.7857,0.7857,"7,085,185",3.42
+,convnextv2_tiny.fcmae_ft_in22k_in1k,0.9286,0.9231,0.9231,0.9333,0.9231,0.9897,,0.8564,0.9282,0.9286,0.9286,"27,965,057",3.81
