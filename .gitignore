@@ -1,0 +1,43 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+HVDROPDB_RetCam*
+*.jpeg
+*.jpg
+*.png
+# Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Retinal dataset
+HVDROPDB_RetCam*
+HVDROPDB_RetCam_Neo_Classification/
+
+# Images
+*.jpeg
+*.jpg
+*.png
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Training results
+results/
+
+# Hugging Face / model cache
+.cache/
+*.ckpt
+*.pth
+*.pt
+results/
+.cache/
+.lesshst
