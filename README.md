@@ -79,9 +79,11 @@ Example:
 ```text
 dataset/
 ├── ROP/
-│   └── ...
+│   ├── Neo_ROP/
+│   └── RetCam_ROP/
 └── Normal/
-    └── ...
+    ├── Neo_Normal/
+    └── RetCam_Normal/
 ```
 
 The exact directory structure should be adapted to the downloaded HVDROPDB classification dataset and the paths specified in the notebooks.
