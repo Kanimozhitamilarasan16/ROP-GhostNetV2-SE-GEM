@@ -1,0 +1,3 @@
+model,test_accuracy,precision,recall_sensitivity,f1_score,roc_auc,num_params
+ghostnetv2,0.75,1,0.461538,0.631579,0.933333,5040005
+se_gem_ghostnetv2,0.821429,0.9,0.692308,0.782609,0.923077,5370430

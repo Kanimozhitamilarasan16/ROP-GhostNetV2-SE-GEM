@@ -1,0 +1,88 @@
+{
+  "model_key": "se_gem_ghostnetv2",
+  "backbone": "ghostnetv2_100.in1k",
+  "checkpoint": "/teamspace/studios/this_studio/results/se_gem_ghostnetv2/checkpoints/best-epoch=25-val_f1=0.6957.ckpt",
+  "num_params": 5370430,
+  "training_time_sec": 482.2248215675354,
+  "train": {
+    "threshold": 0.5,
+    "accuracy": 0.8992248062015504,
+    "precision": 0.8709677419354839,
+    "recall_sensitivity": 0.9152542372881356,
+    "specificity": 0.8857142857142857,
+    "f1_score": 0.8925619834710744,
+    "roc_auc": 0.9757869249394673,
+    "balanced_accuracy": 0.9004842615012106,
+    "mcc": 0.7986513478780985,
+    "cohens_kappa": 0.7977812613047148,
+    "avg_inference_time_sec_per_image": 0.003424988249916543,
+    "confusion_matrix": [
+      [
+        62,
+        8
+      ],
+      [
+        5,
+        54
+      ]
+    ],
+    "neo_accuracy": 0.8983050847457628,
+    "neo_n": 59,
+    "retcam_accuracy": 0.9,
+    "retcam_n": 70
+  },
+  "val": {
+    "threshold": 0.5,
+    "accuracy": 0.75,
+    "precision": 0.8,
+    "recall_sensitivity": 0.6153846153846154,
+    "specificity": 0.8666666666666667,
+    "f1_score": 0.6956521739130435,
+    "roc_auc": 0.8102564102564103,
+    "balanced_accuracy": 0.7410256410256411,
+    "mcc": 0.5017348819226064,
+    "cohens_kappa": 0.48958333333333337,
+    "avg_inference_time_sec_per_image": 0.0036421565000068767,
+    "confusion_matrix": [
+      [
+        13,
+        2
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "neo_accuracy": 0.5833333333333334,
+    "neo_n": 12,
+    "retcam_accuracy": 0.875,
+    "retcam_n": 16
+  },
+  "test": {
+    "threshold": 0.5,
+    "accuracy": 0.8214285714285714,
+    "precision": 0.9,
+    "recall_sensitivity": 0.6923076923076923,
+    "specificity": 0.9333333333333333,
+    "f1_score": 0.7826086956521738,
+    "roc_auc": 0.9230769230769231,
+    "balanced_accuracy": 0.8128205128205128,
+    "mcc": 0.651187825474021,
+    "cohens_kappa": 0.6354166666666667,
+    "avg_inference_time_sec_per_image": 0.0032384962499349967,
+    "confusion_matrix": [
+      [
+        14,
+        1
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    "neo_accuracy": 0.9285714285714286,
+    "neo_n": 14,
+    "retcam_accuracy": 0.7142857142857143,
+    "retcam_n": 14
+  }
+}
